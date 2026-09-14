@@ -72,14 +72,14 @@ Our dataset is curated from multiple sources [1-7]. If you find these data helpf
 
 ```bash
 # python tools/train.py <config>
-python tools/train.py vecheart.py
+python tools/train.py configs/vecheart.py
 ```
 
 ### Test / Evaluate
 
 ```bash
 # python tools/test.py <config> <checkpoint> --eval
-python tools/test.py vecheart.py work_dirs/vecheart/latest.pth --eval
+python tools/test.py configs/vecheart.py work_dirs/vecheart/latest.pth --eval
 ```
 
 ### Inference / Visualization
